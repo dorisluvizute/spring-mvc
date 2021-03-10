@@ -16,7 +16,7 @@ public class HomeController {
 	public String home(Model model) {
 		Pedido pedido = new Pedido();
 		pedido.setNomeProduto("Xiomi Redmi Note 8");
-		pedido.setUrlImagem("https://t2.tudocdn.net/504304?w=145&h=304");
+		pedido.setUrlImagem("https://images-na.ssl-images-amazon.com/images/I/41G27clnK0L._AC_.jpg");
 		pedido.setUrlProduto("https://www.tudocelular.com/Redmi/fichas-tecnicas/n5716/Redmi-Note-8.html");
 		pedido.setDescricao("uma descrição qualquer para esse pedido");
 		
